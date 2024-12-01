@@ -191,7 +191,7 @@
           <div class="col-xl-12 col-md-6" data-aos="fade-up" data-aos-delay="100">
             <div class="card">
                 <div class="card-body">
-                  <img src="assets/img/Profil/arti Logo/arti_Logo_aptikom.png" alt="" class="d-block mx-auto img-fluid" style="height: 500px">
+                  <img src="assets/img/Profil/arti Logo/arti_logo_aptikom.png" alt="" class="d-block mx-auto img-fluid" style="height: 500px">
                    
                 </div>
               </div>
