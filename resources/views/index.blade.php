@@ -325,10 +325,10 @@
             }
           </script>
           <div class="swiper-wrapper align-items-center">
-            <div class="swiper-slide"><img src="assets/img/clients/logo_ICIC.jpg" class="img-fluid" alt=""></div>
-            <div class="swiper-slide"><img src="assets/img/clients/logo_lAM_INFOKOM.jpg" class="img-fluid" alt=""></div>
-            <div class="swiper-slide"><img src="assets/img/clients/logo_LSP_INFORMATIKA.jpg" class="img-fluid" alt=""></div>
-            <div class="swiper-slide"><img src="assets/img/clients/logo_MOOC_APTIKOM.jpg" class="img-fluid" alt=""></div>
+            <div class="swiper-slide"><img src="assets/img/clients/Logo_ICIC.jpg" class="img-fluid" alt=""></div>
+            <div class="swiper-slide"><img src="assets/img/clients/Logo_lAM_INFOKOM.jpg" class="img-fluid" alt=""></div>
+            <div class="swiper-slide"><img src="assets/img/clients/Logo_LSP_INFORMATIKA.jpg" class="img-fluid" alt=""></div>
+            <div class="swiper-slide"><img src="assets/img/clients/Logo_MOOC_APTIKOM.jpg" class="img-fluid" alt=""></div>
           </div>
           <div class="swiper-pagination "></div>
         </div>
