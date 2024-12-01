@@ -58,13 +58,13 @@
     <div class="branding">
 
       <div class="container position-relative d-flex align-items-center justify-content-between">
-        <a href="{{ url('index')}}" class="logo d-flex align-items-center">
+        <a href="{{ url('/')}}" class="logo d-flex align-items-center">
           <!-- Uncomment the line below if you also wish to use an image logo -->
           <img src="logo_nav.jpg" alt="" >
         </a>
           <nav id="navmenu" class="navmenu">
           <ul>
-            <li><a href="{{ url('index')}}" class="active">HOME</a></li>
+            <li><a href="{{ url('/')}}" class="active">HOME</a></li>
             <li class="dropdown"><a href="#"><span>PROFIL</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
               <ul>
                 <li><a href="{{ url('profil-sejarah')}}">Sejarah</a></li>
