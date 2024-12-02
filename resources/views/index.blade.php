@@ -232,7 +232,7 @@
                 <p class="card-text">
                   Salam sehat Healthkathonian, BPJS Kesehatan bekerjasama dengan APTIKOM dengan terus berkomitmen untuk
                 </p>
-                <a href="detail-berita.html" class="btn btn-primary">Baca Selengkapnya</a>
+                <a href="{{ url('berita1')}}" class="btn btn-primary">Baca Selengkapnya</a>
               </div>
             </div>
           </div>
@@ -244,7 +244,7 @@
                 <h5 class="card-title">PKS/MoU RAKORNAS APTIKOM TAHUN 2024</h5>
                 <p class="card-text">
                   Yth, Bpk/Ibu Pimpinan Perguruan Tinggi, Sampai bertemu pada RAKORNAS APTIKOM 2024 (24</p>
-                <a href="detail-berita.html" class="btn btn-primary">Baca Selengkapnya</a>
+                <a href="{{ url('berita2')}}" class="btn btn-primary">Baca Selengkapnya</a>
               </div>
             </div>
           </div>
@@ -257,7 +257,7 @@
                 <p class="card-text">
                   Yth Bapak dan Ibu, Pengurus Pusat, Provinsi, dan Keluarga Besar APTIKOM APTIKOM
                 </p>
-                <a href="detail-berita.html" class="btn btn-primary">Baca Selengkapnya</a>
+                <a href="{{ url('berita3')}}" class="btn btn-primary">Baca Selengkapnya</a>
               </div>
             </div>
           </div>
