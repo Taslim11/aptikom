@@ -191,9 +191,9 @@
               <div class="card-body">
                 <h5 class="card-title">Healthkathon 2024 kerjasama APTIKOM dengan BPJS Kesehatan</h5>
                 <p class="card-text">
-                  Deskripsi singkat berita. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                  Salam sehat Healthkathonian, BPJS Kesehatan bekerjasama dengan APTIKOM dengan terus berkomitmen untuk
                 </p>
-                <a href="detail-berita.html" class="btn btn-primary">Baca Selengkapnya</a>
+                <a href="{{ url('berita1')}}" class="btn btn-primary">Baca Selengkapnya</a>
               </div>
             </div>
           </div>
@@ -204,9 +204,8 @@
               <div class="card-body">
                 <h5 class="card-title">PKS/MoU RAKORNAS APTIKOM TAHUN 2024</h5>
                 <p class="card-text">
-                  Deskripsi singkat berita. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                </p>
-                <a href="detail-berita.html" class="btn btn-primary">Baca Selengkapnya</a>
+                  Yth, Bpk/Ibu Pimpinan Perguruan Tinggi, Sampai bertemu pada RAKORNAS APTIKOM 2024 (24</p>
+                <a href="{{ url('berita2')}}" class="btn btn-primary">Baca Selengkapnya</a>
               </div>
             </div>
           </div>
@@ -217,9 +216,9 @@
               <div class="card-body">
                 <h5 class="card-title">SELAMAT DATANG DI RAKORNAS APTIKOM TAHUN 2024</h5>
                 <p class="card-text">
-                  Deskripsi singkat berita. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                  Yth Bapak dan Ibu, Pengurus Pusat, Provinsi, dan Keluarga Besar APTIKOM APTIKOM
                 </p>
-                <a href="detail-berita.html" class="btn btn-primary">Baca Selengkapnya</a>
+                <a href="{{ url('berita3')}}" class="btn btn-primary">Baca Selengkapnya</a>
               </div>
             </div>
           </div>

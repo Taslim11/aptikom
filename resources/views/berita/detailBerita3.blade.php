@@ -60,11 +60,11 @@
       <div class="container position-relative d-flex align-items-center justify-content-between">
         <a href="{{ url('/')}}" class="logo d-flex align-items-center">
           <!-- Uncomment the line below if you also wish to use an image logo -->
-          <img src="logo_nav.jpg" alt="" >
+          <img src="logo_nav.jpg" alt="">
         </a>
           <nav id="navmenu" class="navmenu">
           <ul>
-            <li><a href="{{ url('/')}}" class="active">HOME</a></li>
+            <li><a href="{{url('/')}}" >HOME</a></li>
             <li class="dropdown"><a href="#"><span>PROFIL</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
               <ul>
                 <li><a href="{{ url('profil-sejarah')}}">Sejarah</a></li>
@@ -137,7 +137,7 @@
                 </li>
               </ul>
             </li>  
-            <li><a href="berita">BERITA</a></li>
+            <li><a href="{{ url('berita')}}"class="active">BERITA</a></li>
             <li class="dropdown"><a href="#"><span>KONFERENSI</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
               <ul>
                 <li><a href="{{ url('https://icic-aptikom.org/2024/')}}">ICIC</a></li>
@@ -175,166 +175,51 @@
 
   <main class="main">
 
-    <!-- Hero Section -->
-    <section id="hero" class="hero section">
+    <!-- Recent Posts Section -->
+    <section id="recent-posts" class="recent-posts section">
 
-      <div id="hero-carousel" class="carousel slide carousel-fade" data-bs-ride="carousel" data-bs-interval="5000">
-
-        <div class="carousel-item active">
-          <img src="assets/img/hero-carousel/rakornas-2017.jpg" alt="">
-          <div class="carousel-container">
-            <h2><span>APTIKOM SULBAR</span></h2>
-          </div>
-        </div><!-- End Carousel Item -->
-
-        <div class="carousel-item">
-          <img src="assets/img/hero-carousel/rakornas-2017.jpg" alt="">
-          <div class="carousel-container">
-            <h2>Asosiasi Perguruan Tinggi Informatika dan Komputer Sulawesi Barat</h2>
-          </div>
-        </div><!-- End Carousel Item -->
-
-        <a class="carousel-control-prev" href="#hero-carousel" role="button" data-bs-slide="prev">
-          <span class="carousel-control-prev-icon bi bi-chevron-left" aria-hidden="true"></span>
-        </a>
-
-        <a class="carousel-control-next" href="#hero-carousel" role="button" data-bs-slide="next">
-          <span class="carousel-control-next-icon bi bi-chevron-right" aria-hidden="true"></span>
-        </a>
-
-      </div>
-
-      <div class="featured container">
-
-        <div class="row gy-4">
-
-
-        </div>
-
-      </div>
-
-    </section><!-- /Hero Section -->
-
-    <section class="news py-5">
-      <div class="container">
-        <!-- Section Title -->
+      <!-- Section Title -->
       <div class="container section-title mt-5" data-aos="fade-up">
         <h2>Berita APTIKOM</h2>
         {{-- <p>Necessitatibus eius consequatur ex aliquid fuga eum quidem sint consectetur velit</p> --}}
       </div><!-- End Section Title -->
-        <div class="row g-4">
-          <!-- Berita 1 -->
-          <div class="col-md-4">
-            <div class="card h-100">
-              <img src="assets/img/berita/1.jpg" class="card-img-top" alt="Gambar Berita">
-              <div class="card-body">
-                <h5 class="card-title">Healthkathon 2024 kerjasama APTIKOM dengan BPJS Kesehatan</h5>
-                <p class="card-text">
-                  Salam sehat Healthkathonian, BPJS Kesehatan bekerjasama dengan APTIKOM dengan terus berkomitmen untuk
-                </p>
-                <a href="detail-berita.html" class="btn btn-primary">Baca Selengkapnya</a>
-              </div>
-            </div>
-          </div>
-          <!-- Berita 2 -->
-          <div class="col-md-4">
-            <div class="card h-100">
-              <img src="assets/img/berita/2.jpg" class="card-img-top" alt="Gambar Berita">
-              <div class="card-body">
-                <h5 class="card-title">PKS/MoU RAKORNAS APTIKOM TAHUN 2024</h5>
-                <p class="card-text">
-                  Yth, Bpk/Ibu Pimpinan Perguruan Tinggi, Sampai bertemu pada RAKORNAS APTIKOM 2024 (24</p>
-                <a href="detail-berita.html" class="btn btn-primary">Baca Selengkapnya</a>
-              </div>
-            </div>
-          </div>
-          <!-- Berita 3 -->
-          <div class="col-md-4">
-            <div class="card h-100">
-              <img src="assets/img/berita/3.jpg" class="card-img-top" alt="Gambar Berita">
+
+      <div class="container">
+
+        <div class="row gy-4">
+
+          <div class="col-xl-12 col-md-6" data-aos="fade-up" data-aos-delay="100">
+            <img src="assets/img/berita/3.jpg" class="card-img-top" alt="Gambar Berita">
               <div class="card-body">
                 <h5 class="card-title">SELAMAT DATANG DI RAKORNAS APTIKOM TAHUN 2024</h5>
-                <p class="card-text">
-                  Yth Bapak dan Ibu, Pengurus Pusat, Provinsi, dan Keluarga Besar APTIKOM APTIKOM
-                </p>
-                <a href="detail-berita.html" class="btn btn-primary">Baca Selengkapnya</a>
+                <p class="card-text">Yth Bapak dan Ibu,</p>
+                <p class="card-text">Pengurus Pusat, Provinsi, dan Keluarga Besar APTIKOM</p>    
+                <p class="card-text">APTIKOM akan menyelenggarakan Rapat Koordinasi Nasional (RAKORNAS) APTIKOM Tahun 2024 dengan tema “Accelerating the Research and Education in AI for Improving the National Competitiveness Toward Indonesian Golden Year 2045”.</p>     
+                <p class="card-text">APTIKOM mengharapkan kehadiran Bapak dan Ibu Pimpinan dan Pejabat Lembaga Perguruan Tinggi, Rektor/Ketua/Dekan/Kaprodi/ Dosen/ Yayasan serta Keluarga Besar APTIKOM pada :</p>    
+                <p class="card-text">Hari/Tanggal : Kamis sd Sabtu / 24-26 Oktober 2024</p>     
+                <p class="card-text">Tempat : Hotel Santika Premiere Dyandra, Jl. Kapten Maulana Lubis No. 7, Petisah Tengah, Kota Medan, Sumatera Utara 20111</p>    
+                <p class="card-text">Agenda :</p>
+                <p class="card-text">I. RAKORNAS APTIKOM</p>
+                <p class="card-text">II. Seminar Nasional Teknologi Informasi dan Komunikasi (Semnastik)</p>
+                <p class="card-text">III. The 9th International Conference on Informatics and Computing (ICIC 2024)</p>
+                <p class="card-text">IV. Klinik-Klinik (Kurikulum OBE, Akreditasi LAM Infokom, Penulisan Artikel, dll)</p>
+                <p class="card-text">V. Sharing Industri</p>
+                <p class="card-text">VI. Best Practice Perguruan Tinggi</p>
+                <p class="card-text">Pendaftaran dan konfirmasi kehadiran dapat dilakukan melalui Sekretariat Panitia RAKORNAS APTIKOM 2024 di Universitas Methodist Indonesia atau di laman http://rakornasaptikom2024.methodist.ac.id</p>
+                <p class="card-text">Untuk informasi selanjutnya dapat menghubungi Bpk. Indra Hp/WA 081361515197</p>
+                <p class="card-text">Demikian disampaikan, ditunggu kehadirannya di RAKORNAS APTIKOM Tahun 2024. Tiada kesan tanpa kehadiran Bapak Dan Ibu.</p>
+                <p class="card-text">Salam Hangat,</p>
+                <p class="card-text">Ketua Umum dan Sekretaris Jenderal APTIKOM Pusat</p>
+                <p class="card-text">#AptikomForIndonesia🇮🇩</p>
+                <p class="card-text">#AptikomUntukPendidikanHebat</p>
               </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-    
+          
 
-    
-    <!-- Clients Section -->
-    <section id="clients" class="section clients">
-      <style>
-        @media (min-width: 992px) {
-          .swiper-slide img {
-            max-width: 180px; /* Sesuaikan ukuran gambar */
-            height: auto; /* Pertahankan proporsi gambar */
-            margin: 0 auto; /* Ratakan gambar di tengah */
-            display: block; /* Pastikan gambar dianggap elemen block */
-          }
-    
-          .swiper-slide {
-            display: flex; /* Gunakan flexbox untuk perataan */
-            justify-content: center; /* Ratakan horizontal */
-            align-items: center; /* Ratakan vertical */
-            margin: 0 75px; /* Tambahkan jarak horizontal antar slide */
-          }
-        }
-      </style>
-
-      <div class="container" data-aos="fade-up" data-aos-delay="100">
-
-        <div class="swiper init-swiper">
-          <script type="application/json" class="swiper-config">
-            {
-              "loop": true,
-              "speed": 600,
-              "autoplay": {
-                "delay": 5000
-              },
-              "slidesPerView": "auto",
-              "pagination": {
-                "el": ".swiper-pagination",
-                "type": "bullets",
-                "clickable": true
-              },
-              "breakpoints": {
-                "320": {
-                  "slidesPerView": 2,
-                  "spaceBetween": 40
-                },
-                "480": {
-                  "slidesPerView": 3,
-                  "spaceBetween": 60
-                },
-                "640": {
-                  "slidesPerView": 4,
-                  "spaceBetween": 80
-                },
-                "992": {
-                  "slidesPerView": 6,
-                  "spaceBetween": 120
-                }
-              }
-            }
-          </script>
-          <div class="swiper-wrapper align-items-center">
-            <div class="swiper-slide"><img src="assets/img/clients/Logo_ICIC.jpg" class="img-fluid" alt=""></div>
-            <div class="swiper-slide"><img src="assets/img/clients/Logo_LAM_INFOKOM.jpg" class="img-fluid" alt=""></div>
-            <div class="swiper-slide"><img src="assets/img/clients/Logo_LSP_INFORMATIKA.jpg" class="img-fluid" alt=""></div>
-            <div class="swiper-slide"><img src="assets/img/clients/Logo_MOOC_APTIKOM.jpg" class="img-fluid" alt=""></div>
-          </div>
-          <div class="swiper-pagination "></div>
-        </div>
+        </div><!-- End recent posts list -->
 
       </div>
-
-    </section><!-- /Clients Section -->
+      
+    
 
   </main>
 
