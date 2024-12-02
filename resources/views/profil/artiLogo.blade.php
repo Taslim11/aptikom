@@ -162,7 +162,8 @@
                 <li><a href="#">Buku Saku APTIKOM</a></li>
                 <li><a href="#">Mars APTIKOM</a></li>
               </ul>
-            </li> 
+            </li>
+            <li><a href="{{ asset('MANUALBOOK.pdf')}}">Help</a></li> 
           </ul>
           <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
         </nav>
